@@ -18,7 +18,7 @@
     echo "<br>";
     echo $height;
     echo "<br>";
-    echo $isStudent;
+    echo $isStudent;    
 
 
     ?>
