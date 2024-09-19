@@ -1,4 +1,4 @@
-  <?php
+<?php
     $firstName = "Jan";
     $age = 25;
     $height = 1.75;
@@ -13,4 +13,4 @@
     echo $isStudent;    
 
 
-    ?>
+?>

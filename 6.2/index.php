@@ -1,16 +1,13 @@
 <?php
 
-$prices = [100, 200, 300, 400, 500];
-While ($prices > 500) {
-    $prices[0] += 50;
-    $prices[1] += 50;
-    $prices[2] += 50;
-    $prices[3] += 50;
-    }
+$prices = ["100", "200", "300", "400", "500"];
 
-echo "oorspronkelijke prijs:" . $prices;
-echo "nieuwe prijs:" . $newPrice;
-
+$i = 0;
+while ($i < count($prices)) {
+    echo "Orginele prijs is: " . $prices[$i] . "<br>";
+    echo "het is nu: " . $prices[$i] + 50 . "<br>";
+    $i++;
+}
 
 ?>
 
