@@ -1,0 +1,9 @@
+{
+    "name": "molen/smartyy",
+    "autoload": {
+        "psr-4": {
+            "Molen\\Smartyy\\": "src/"
+        }
+    },
+    "require": {}
+}
